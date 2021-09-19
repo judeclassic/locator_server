@@ -13,7 +13,8 @@ module.exports = (app, userModel)=>{
                 },
                     
             }},
-            (results)=>{
+            (err, results)=>{
+                if (err) console.log(err);
                 res.json("updated location");
             }
         );
