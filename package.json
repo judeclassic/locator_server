@@ -1,0 +1,25 @@
+{
+  "name": "the_start_up",
+  "version": "1.0.0",
+  "description": "Server for my pool_your_car",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.13.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "_moduleAliases": {
+    "@lib": "./lib",
+    "@secrets": "./secrets"
+  }
+}
