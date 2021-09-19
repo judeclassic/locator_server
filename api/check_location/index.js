@@ -1,4 +1,3 @@
-const finder = require('@lib/finder');
 
 module.exports = (app, userModel)=>{
     app.post('/api/check_location', (req, res)=>{

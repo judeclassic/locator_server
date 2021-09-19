@@ -1,7 +1,7 @@
 
 module.exports = (app, model)=>{
 
-    app.post('/api/register_user', (req, res)=>{
+    app.post('/api/register', (req, res)=>{
         var driverModel = new model({
             name: req.body.name,
         });
