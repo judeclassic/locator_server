@@ -8,7 +8,7 @@ module.exports = (app, userModel)=>{
             {name: name},
             {$set: {
                 location: {
-                    location: Json.parse(location),
+                    location: location,
                     date: Date.now()
                 },
                     
